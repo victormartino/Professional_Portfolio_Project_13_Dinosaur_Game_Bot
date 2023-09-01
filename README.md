@@ -1,10 +1,13 @@
 # Dinosaur Game Bot
 
-This is a simple Python script that automates playing the Chrome Dinosaur Game using the pyautogui library. The bot detects obstacles by checking the color of a specific pixel and simulates a jump whenever an obstacle is detected.
+This is a simple Python script that automates playing the Chrome Dinosaur Game using the pyautogui and NumPy libraries. The bot detects obstacles by checking the color of a specific pixel and simulates a jump whenever an obstacle is detected.
 
-**Note**: This script requires the installation of the pyautogui library, which can be done using the following command:
+**Note**: This script requires the installation of the pyautogui and NumPy libraries, which can be done using the following commands:
 ```bash
 pip install pyautogui
+```
+```bash
+pip install numpy
 ```
 
 ## How to Use
@@ -13,7 +16,10 @@ pip install pyautogui
     ```bash
     pip install pyautogui
     ```
-
+    ```bash
+    pip install numpy
+    ```
+   
 2. **Run the Script:**
     - Open your preferred Python interpreter or IDE.
     - Copy and paste the provided script into the editor.
